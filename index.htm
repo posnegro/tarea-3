@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>despegarte.com</title>
+  </head>
+  <body>
+    <header>
+      <h1>Vuelos con reserva flexible</h1>
+      <hr />
+    </header>
+    <main>
+    <section>
+        <h3>Encontrar pasajes aereos con la posibilidad de cambiar las fechas de vuelo</h3>
+    </section>
+    <form action="">
+    <section>
+        <p>
+            <label for="">
+              <input
+                type="radio"
+                id=""
+                name="modalidad"
+                value="remoto"
+                checked
+              />Ida y vuelta
+              <input
+                type="radio"
+                id=""
+                name="modalidad"
+                value="presencial"
+              />Solo ida
+              <input
+              type="radio"
+              id=""
+              name="modalidad"
+              value="presencial"
+            />Multidestino
+            </label>
+            </p>
+    </section>
+    <section>
+        <p>
+        <label for="Pais Destino">
+            <span><b>Origen</b></span>   
+            <br />
+            <input
+              type="text"
+              id="Pais Local"
+              name="Pais destino"
+              autocomplete="country-name"
+              required
+              placeholder="dicte su pais"
+              required
+            />
+            <section>
+
+            <p>
+          </label>
+          <label for="Pais Destino">
+            <span><b>Destino</b></span>
+            <br />
+            <input
+              type="text"
+              id="Pais destino"
+              name="Pais destino"
+              autocomplete="country"
+              placeholder="Ingrese el pais de destino"
+              required
+            />
+          </label>
+        </p>  
+        </section>
+        <section>
+          <label for="fecha">
+            <span> <b>Fechas</b></span>
+            <br />
+            <input
+              type="date"
+              id="ida"
+              name="ida"
+              placeholder="Ida" 
+              required
+              />
+              
+            <input
+              type="date"
+              id="vuelta"
+              name="vuelta"
+              placeholder="Vuelta"
+              required
+            />
+
+          </label>
+          <label for="acepto">
+              <br>
+            <input type="checkbox" id="acepto" name="acepto" required />
+            <span> Todavia no a decidido la fecha </span>
+            
+          </label>
+        </section>
+        <section>
+            <label for="Clases">
+                <span>Pasajeros y Clase</span>
+                <select name="curso" id="cursos" >
+                  <option value="1°">1° clase-Vip</option>
+                  <option value="2°">2° clase-Mediano</option>
+                  <option value="3°">3° clase-Economico</option>
+                  
+                </select>
+                </label>
+          <button>Buscar</button>
+        </section>
+      </form>
+    </section>
+  </main>
+
+    <footer>
+      <hr />
+      <span>&copy; Derechos reservados</span>
+    </footer>
+  </body>
+</html>
